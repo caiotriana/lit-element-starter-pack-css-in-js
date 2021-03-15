@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.jota-Button {
+  border: 0px;
+  transition: 0.1s;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.jota-Button-primary {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.jota-Button-primary:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.jota-Button-primary:focus {
+  background-color: #000000;
+  outline: #BDBDBD;
+  color: #FFFFFF;
+}
+
+.jota-Button-primary:active {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.jota-Button-primary--inverse {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.jota-Button-primary--inverse:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.jota-Button-primary--inverse:focus {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.jota-Button-primary--inverse:active {
+  background-color: #E0E0E0;
+  color: #000000;
+}
+
+.jota-Button-secondary {
+  background: transparent;
+  color: #000000;
+}
+
+.jota-Button-secondary:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.jota-Button-secondary:focus {
+  background-color: transparent;
+  outline: #BDBDBD;
+  color: #000000;
+}
+
+.jota-Button-secondary:active {
+  color: #000000;
+  background-color: #E0E0E0;
+}
+
+.jota-Button-secondary--inverse {
+  color: #FFFFFF;
+}
+
+.jota-Button-secondary--inverse:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.jota-Button-secondary--inverse:focus {
+  background-color: transparent;
+  color: #BDBDBD;
+}
+
+.jota-Button-secondary--inverse:active {
+  background-color: #E0E0E0;
+  color: #000000;
+}
+
+.jota-Button--disabled, .jota-Button:disabled {
+  pointer-events: none;
+  color: #616161;
+  background-color: #BDBDBD;
+}
+
+.jota-Button--small {
+  line-height: 115%;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.jota-Button--medium {
+  line-height: 100%;
+  padding: 16px 32px;
+}
+
+.jota-Button--large {
+  line-height: 150%;
+  padding: 16px 32px;
+}
