@@ -1,7 +1,7 @@
-# New Project
+# Lit Element Starter Pack Css in Js
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
-Set a Css-in-js with goober to styled your componentes.
+Set a Css-in-js with [goober](https://github.com/cristianbote/goober) to styled your componentes.
 
 ## Available Scripts
 
@@ -17,11 +17,3 @@ You will also see any lint errors in the console.
 
 Builds the app for production to the `dist/` folder.
 It correctly bundles the app in production mode and optimizes the build for the best performance.
-
-## Directives
-
-In case you need to add a directive like `classMap` you should add the extension to the import:
-
-```
-import { classMap } from "lit-html/directives/class-map.js";
-```
